@@ -1,5 +1,6 @@
 class HandlsController < ApplicationController
   def index
+	@handls = Handl.all
   end
 
   def show

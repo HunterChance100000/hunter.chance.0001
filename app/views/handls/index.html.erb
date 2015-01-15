@@ -1,2 +1,6 @@
 <h1>Handls#index</h1>
 <p>Find me in app/views/handls/index.html.erb</p>
+
+<% @handls.each do |handl| %>
+  <h1><%= handl.title %></h1>
+<% end %>
